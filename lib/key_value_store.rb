@@ -15,7 +15,7 @@
 
 class KeyValueStore
   def initialize
-    @hash = []
+    @hash = [] 
   end
 
   def set(key, value)
@@ -37,6 +37,6 @@ class KeyValueStore
       pair[1]
     end
   end
-  
+
 end
 
